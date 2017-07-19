@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#terminos").change(function(){$("#btn-continuar").addClass("disabled")}),$(".carousel.carousel-slider").carousel({fullWidth:!0})});
