@@ -18,11 +18,20 @@
 // getJSON(api.url);
 
 $(document).ready(function(){
-  var $terminos = $('#terminos');
 
-  $terminos.change(function(){
-    $('#btn-continuar').addClass('disabled');
-  })
+        // var condiciones = $("#terminos");
+        // console.log(condiciones);
+        // if(condiciones.is(':checked')){
+        //   $('#btn-continuar').removeClass('disabled');
+        // } else {
+        //   $('#btn-continuar').addClass('disabled');
+        // }
+
+          $("#terminos").on('change', function(){
+            $('#btn-continuar').removeClass('disabled');
+          })
+          
+
 
   $('.carousel.carousel-slider').carousel({fullWidth: true});
 
