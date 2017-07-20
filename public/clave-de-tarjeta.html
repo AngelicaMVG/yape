@@ -8,40 +8,41 @@
     <link rel="stylesheet" href="./static/materialize-css/dist/css/materialize.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <title>Registro</title>
+    <title>Ingresa tu clave de tarjeta</title>
 </head>
 
 <body>
 
     <section class="container">
         <div class="row">
+            <div class="col-s2 offset-s2">
+                <a href="registro-tarjeta.html" class="black-text return"><i class="fa fa-chevron-left"></i> Volver</a>
+            </div>
+        </div>
+        <div class="row">
             <div class="col s12 center">
-                <img src="assets/img/icons/phone.png" alt="" class="registro__img">
-                <h5><strong>Para comenzar validemos tu número</strong></h5>
-                <p class="grey-text">Recibiras un SMS con un código de validación.</p>
+                <img src="assets/img/icons/bcp-logo.png" alt="" class="registro__img">
+                <h5><strong>Ingresa la clave de tu tarjeta</strong></h5>
+                <div class="row center">
+                    <div class="col s8 offset-s2">
+                        <p class="grey-text">Tarjeta </p>
+                    </div>
+                </div>
             </div>
             <div class="container">
                 <div class="row center">
-                    <form class="col s12 ">
+                    <form class="col s12 forma">
                         <div class="row">
-                            <div class="col s3">
-                                <img src="assets/img/icons/phoneandnumber.png" alt="" class="img-form">
+                            <div class="col s2">
+                                <img src="assets/img/icons/lock.png" alt="" class="img-form img__form-size">
                             </div>
                             <div class="input-field col s7 offset-s1">
-                                <input id="telefono" type="number" data-length="10">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col s10 offset-s1">
-                                <p>
-                                    <input type="checkbox" class="filled-in" id="terminos" />
-                                    <label for="terminos">Acepto los <a href="#" class="teal-text lighten-1">Terminos y condiciones.</a></label>
-                                </p>
+                                <input id="codigo" type="password" >
                             </div>
                         </div>
                         <div class="row">
                             <div class="col s6 offset-s3">
-                                <a href="codigo-ingreso.html" id="btn-continuar" class="btn waves-effect yellow white-text btn-continuar disabled">Continuar</a>
+                                <a href="#" id="" class="btn waves-effect yellow white-text btn-continuar">Registrar</a>
                             </div>
                         </div>
                     </form>
@@ -50,14 +51,11 @@
         </div>
     </section>
 
-
-
-
-
-
-    <script src="./static/jquery/dist/jquery.min.js"></script>
+    <script src="./static/jquery/dist/jquery.min.js">
+    </script>
     <script src="./static/materialize-css/dist/js/materialize.min.js"></script>
     <script src="../assets/js/bundle.js"></script>
+
 </body>
 
 </html>

@@ -73,3 +73,26 @@
     margin: 0;
   }
 }
+
+#splash {
+  background-color: #FBD43B;
+  min-height: 700px;
+
+  img {
+    width: 50%;
+    margin-top: 80%;
+  }
+
+  h5 {
+    color: #451E36;
+    font-weight: bold;
+  }
+}
+
+#registro-tarjeta {
+  display: none;
+
+  .mt {
+    margin-top: 5%;
+  }
+}

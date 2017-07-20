@@ -59,5 +59,3 @@ typings/
 
 # databases
 api/users/*
-
-/src

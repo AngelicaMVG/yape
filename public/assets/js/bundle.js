@@ -77,4 +77,9 @@ $(document).ready(function() {
   $('.carousel.carousel-slider').carousel({
     fullWidth: true
   });
+
+  setTimeout(function() {
+      $('#splash').hide(500);
+      $('#registro-tarjeta').show(500);
+   }, 3000);
 });
