@@ -12,7 +12,14 @@
 </head>
 
 <body>
+
+
     <section class="container">
+      <div class="row">
+        <div class="col-s2 offset-s2">
+          <a href="registro.html" class="black-text return"><i class="fa fa-chevron-left"></i></a>
+        </div>
+      </div>
         <div class="row">
             <div class="col s12 center">
                 <img src="assets/img/icons/message.png" alt="" class="registro__img">
@@ -28,10 +35,11 @@
                     <form class="col s12 ">
                         <div class="row">
                             <div class="col s2">
-                                <img src="assets/img/icons/lock.png" alt="" class="img-form">
+                                <img src="assets/img/icons/lock.png" alt="" class="img-form img__form-size">
                             </div>
                             <div class="input-field col s7 offset-s1">
-                                <input id="telefono" type="number" data-length="10">
+                                <input id="codigo" type="number" data-length="4" placeholder="- - - -">
+                                <p class="grey-text">Reintentar en 30 <img src="assets/img/icons/clock.png" alt="" class="img-clock"></p>
                             </div>
                         </div>
                     </form>

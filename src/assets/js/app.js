@@ -1,24 +1,36 @@
 // var api = {
-//   url:'http://localhost:3000/api/registerNumber'
+//   url:'http://localhost:5000/api/registerNumber'
 // }
 //
-// function getJSON(url) {
-//   return new Promise (function(resolve, error){
-//     var ajax = new XMLHttpRequest();
-//     ajax.open('GET',url)
-//     ajax.send()
-//     ajax.onreadystatechange = function(){
-//       if(ajax.readyState == 4){
-//         var response = JSON.parse(ajax.responseText)
-//         resolve(response)
-//       }
-//     }
-//   })
-// }
+//
+//
 // getJSON(api.url);
+// var telefono = $('#telefono').val();
+// var terminos = $('#terminos'),is(':checked');
+
+//  function validarTel(telefono){
+//
+//   telefono.val().length ==10;
+//   console.log(telefono)
+//   return telefono;
+// };
+// var validarCheck = function (terminos) {
+//   terminos.is(':checked');
+//   return terminos;
+// };
+
+// var activarBtn = function () {
+//   var telefono = $('#telefono').val();
+//   var terminos = $('#terminos'),is(':checked');
+//   var btn = $('#btn-continuar');
+//   if(telefono === 10 & terminos) {
+//     btn.removeClass('disabled');
+//   } else {
+//     btn.addClass('disabled');
+//   }
+// };
 
 $(document).ready(function(){
-
         // var condiciones = $("#terminos");
         // console.log(condiciones);
         // if(condiciones.is(':checked')){
@@ -30,7 +42,8 @@ $(document).ready(function(){
           $("#terminos").on('change', function(){
             $('#btn-continuar').removeClass('disabled');
           })
-          
+        
+
 
 
   $('.carousel.carousel-slider').carousel({fullWidth: true});
