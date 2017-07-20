@@ -14,11 +14,6 @@
 <body>
     <section class="container">
         <div class="row">
-            <div class="col-s2 offset-s2">
-                <a href="registro.html" class="black-text return"><i class="fa fa-chevron-left"></i></a>
-            </div>
-        </div>
-        <div class="row">
             <div class="col s12 center">
                 <img src="assets/img/icons/lockone.png" alt="" class="registro__img">
                 <h5><strong>Crea tu usuario Yape.</strong></h5>
@@ -28,34 +23,41 @@
                     </div>
                 </div>
             </div>
-          </div>
-          <div class="row">
-   <form class="col s12">
-     <div class="row">
-       <div class="input-field col s12">
-         <input value="I am not editable" id="disabled" type="text" class="validate">
-         <label for="disabled">Disabled</label>
-       </div>
-     </div>
-     <div class="row">
-       <div class="input-field col s12">
-         <input id="password" type="password" class="validate">
-         <label for="password">Password</label>
-       </div>
-     </div>
-     <div class="row">
-       <div class="input-field col s12">
-         <input id="email" type="email" class="validate">
-         <label for="email">Email</label>
-       </div>
-     </div>
-     <div class="row">
-        <div class="col s4 offset-s4">
-          <a class="waves-effect waves-light btn">button</a>
         </div>
-     </div>
-   </form>
- </div>
+        <div class="row center forma">
+            <form class="col s12 ">
+                <div class="row">
+                    <div class="col s2">
+                        <img src="assets/img/icons/user.png" alt="" class="img-form img--size">
+                    </div>
+                    <div class="input-field col s7 offset-s1">
+                        <input id="nombre" type="number" placeholder="nombre" class="center">
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col s2">
+                        <img src="assets/img/icons/message-gray.png" alt="" class="img-form img--size">
+                    </div>
+                    <div class="input-field col s7 offset-s1">
+                        <input id="correo" type="email" placeholder="ejemplo@ejemplo.com" class="center">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s2">
+                        <img src="assets/img/icons/lock.png" alt="" class="img-form img__form-size">
+                    </div>
+                    <div class="input-field col s7 offset-s1">
+                        <input id="codigoUsuario" type="number" placeholder="Ingresa tu codigo" class="center">
+                    </div>
+                </div>
+                  <p class="grey-text center"><small>Cuida esta clave como Oro, es tu acceso a Yape.</small></p>
+                <div class="row">
+                    <div class="col s6 offset-s3">
+                        <a href="codigo-ingreso.html" id="btn-continuar" class="btn waves-effect yellow white-text btn-continuar disabled">Continuar</a>
+                    </div>
+                </div>
+            </form>
+        </div>
     </section>
 
 
