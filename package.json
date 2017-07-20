@@ -26,7 +26,6 @@
     "gulp-obfuscate": "^0.2.9",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
-    "materialize": "^1.0.0",
     "materialize-css": "^0.99.0"
   },
   "repository": {

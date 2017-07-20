@@ -46,7 +46,7 @@ gulp.task("sass", function() {
 gulp.task("js", function() {
   gulp.src(sources.js)
     .pipe(concat('bundle.js'))
-    .pipe(uglify())
+    // .pipe(uglify())
 
     .pipe(gulp.dest(ruta.dest + '/assets/js'));
 });
